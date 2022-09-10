@@ -1,0 +1,1036 @@
+body{
+	margin:0;
+	padding: 0;
+}
+
+.a{
+	height:625px;
+	background: url('../images/sakuraa.gif');
+	background-position: center;
+	background-size: cover;
+	overflow-x: hidden;
+	position: relative;
+}
+
+.navbar{
+	display: flex;
+	padding: 40px 120px;
+}
+
+.navlogo img{
+	width: 400px;
+}
+
+.navlinks{
+		flex: 1;
+}
+
+.navlinks ul{
+		margin-left: 50px;
+		display: inline;
+}
+
+.navlinks ul li{
+		list-style: none;
+		display: inline-block;
+		padding: 8px 25px;
+}
+.navlinks ul a{
+		color:#000000;
+		text-decoration: none;
+		font-size: 25px;
+		background: #fff;
+		display: block;
+		float: right;
+		padding: 10px;
+		font-family: "Lucida Console", Monospace;
+		text-shadow: 2px 2px 5px #e2b6cf;
+}
+
+.navlinks ul li::after{
+	content: '';
+	width: 0;
+	height: 5px;
+	background: #dc85ff;
+	display: block;
+	margin: auto;
+	transition: 0.5s;
+}
+.navlinks ul li:hover::after{
+	width: 60px;
+}
+
+.b{
+	margin: 80px 130px;
+	color: #f7f8f2;
+}
+.b h1{
+	font-size: 55px;
+	margin-bottom: 30px;
+	 text-shadow: 3px 3px black;
+}
+.b h1 span{
+	color: #ef7a85;
+}
+
+.vertical-bar{
+	height: 100%;
+	background: #fff;
+	top: 0;
+	left: 0;
+	position:absolute;
+}
+
+.search-icons{
+	height: 60px;
+	width: 80px;
+}
+
+.search-icons .fa{
+	margin: 15px 23px;
+	display: block;
+	color: #000;
+	font-size: 30px;
+	cursor: pointer;
+}
+.social-icons{
+	height: 87%;
+	width: 80px;
+	background: #ffc8dd;
+	text-align: center;
+	padding-top: 30%;
+	bottom: 0;
+	position: absolute;
+	
+	
+}
+
+.social-icons .fa {
+	margin: 15px 23px;
+	display: block;
+	color: #000;
+	font-size: 40px;
+	cursor: pointer;
+	margin-bottom: 150px;
+	margin-top: 50px;
+	text-decoration: none;
+	
+}
+
+.social-icons a{
+	text-decoration: none;
+}
+
+/* Banner Image */
+.banner_image{
+	background:url('../images/ac.jpg');
+	width: 100%;
+	height:300px;
+}
+
+.banner_content{
+	color: #fff;
+	text-align: center;
+}
+.banner_content h1{
+	text-transform: uppercase;
+	line-height: 38px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	margin-top: none;
+	padding-top: 75px;
+	text-shadow: 2px 2px 5px #000;
+}
+.banner_content h1 span {
+	color:#89023e;
+	font-size: 24px;
+	text-shadow: 2px 2px 5px #fff;
+
+}/* YHURII */
+
+.yhurii h1{
+	color:#000000;
+		text-decoration: none;
+		font-size: 25px;
+		background: #fff;
+		display: block;
+		text-align:center;
+		padding: 10px;
+		font-family: "Lucida Console", Monospace;
+		text-shadow: 2px 2px 5px #e2b6cf;
+}
+
+.yhurii p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 5px #7a1137;
+	text-align: center;
+	 letter-spacing: 3px;
+	 font-family: "Times New Roman", Times, serif;
+
+
+}
+
+
+.yhurii,
+.diff_services{
+	padding: 5% 10%;
+	text-align: center;
+}
+
+/* Services */
+.diff_services{
+	background: #e9d3d0;
+}
+	
+.services{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+.services img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+.services h1{
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.diff_service_charity h3{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: none;
+	text-shadow: 5px 5px 9px #160308;
+}
+.diff_service_charity p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 5px #7a1137;
+	padding: 15px;
+	text-align: center;
+	 letter-spacing: 3px;
+	 white-space: nowrap;
+}
+.diff_service_charity li{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: text-shadow: 2px 2px #000;
+	text-align: left;
+	white-space: nowrap;
+	font-family:  Copperplate, fantasy;
+	
+}
+
+.diff_service_anime h3{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: none;
+	text-shadow: 5px 5px 9px #160308;
+
+}
+.diff_service_anime img{
+	padding-right: 10px;
+}
+.diff_service_anime p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 5px #7a1137;
+	padding: 15px;
+	text-align: center;
+	 letter-spacing: 3px;
+	 white-space: nowrap;
+}
+.diff_service_anime li{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: text-shadow: 2px 2px #000;
+	text-align: left;
+	white-space: nowrap;
+	font-family:  Copperplate, fantasy;
+	padding-left: 20px;
+}
+
+.diff_service_games h3{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	margin-top: none;
+	text-shadow: 5px 5px 9px #160308;
+}
+.diff_service_games p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: 2px 2px 5px #7a1137;
+	padding: 15px;
+	text-align: center;
+	 letter-spacing: 3px;
+	 white-space: nowrap;
+}
+.diff_service_games li{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-shadow: text-shadow: 2px 2px #000;
+	text-align: left;
+	white-space: nowrap;
+	font-family:  Copperplate, fantasy;
+	padding-left: 20px;
+}
+/* Banner Image */
+.banner_img{
+	background:url('../images/howl.jpg');
+	width: 100%;
+	height:300px;
+}
+
+.banner_emma{
+	color: #fff;
+	text-align: center;
+}
+.banner_emma h1{
+	text-transform: uppercase;
+	line-height: 50px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	margin-top: none;
+	padding-top: 75px;
+	text-shadow: 2px 2px 5px #000;
+}
+.banner_emma h1 span {
+	color:#89023e;
+	font-size: 24px;
+	text-shadow: 2px 2px 5px #fff;
+}
+	
+.cosplaym h1{
+	line-height: 10px;
+	font-size: 100px;
+	text-shadow: 50px 50px 100px #7a1137;
+	text-align: center;
+	letter-spacing: 100px;
+	padding-left: 60px;
+	padding-bottom:15px;
+	padding-bottom: -15;
+}
+/* Banner Image */
+.banner_imag{
+	background:url('../images/yumeko.jpg');
+	width: 100%;
+	height:150px;
+	
+}
+.yumeko{
+line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 10px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.jabamiyumekomary{
+	background:#ee6962;
+}
+
+.yumekocosplay1{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+}
+.jabamicosplay1 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay2 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay3 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+.yumekocosplay2 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+}
+.jabamicosplay4 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay5 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay6 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.yumekocosplay3 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+}
+.jabamicosplay7 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay8 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.jabamicosplay9 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.banner_imge{
+	background:url('../images/nezuko.jpg');
+	width: 100%;
+	height:150px;
+	
+}
+
+.kamado{
+	background:#ffdde2;
+}
+.nezuko{
+line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 10px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.nezukocosplay1 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+	background:#ffdde2;
+	
+}
+.nezuko1 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezuko2 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}.nezuko3 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezukocosplay2 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+	background:#ffdde2;
+}
+.nezuko4 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezuko5 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}.nezuko6 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezukocosplay3 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+}
+.nezuko7 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezuko8 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}.nezuko9 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezukocosplay4 {
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+	padding: 100px;
+	padding-top: 1px;
+}
+.nezuko10 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+.nezuko11 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}.nezuko12 img{
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.banner_imaag{
+	background:url('../images/bananafish.jpg');
+	width: 100%;
+	height:300px;
+}
+
+.bananafish{
+	color: #fff;
+	text-align: center;
+}
+.bananafish h1{
+	text-transform: uppercase;
+	line-height: 50px;
+	margin-bottom: 15px;
+	font-size: 50px;
+	margin-top: none;
+	padding-top: 75px;
+	text-shadow: 2px 2px 5px #000;
+}
+.bananafish h1 span {
+	color:#89023e;
+	font-size: 24px;
+	text-shadow: 2px 2px 5px #fff;
+}
+
+.fc h1{
+	color:#000000;
+		text-decoration: none;
+		font-size: 100px;
+		background: #fff;
+		display: block;
+		text-align:center;
+		padding: 10px;
+		font-family: "Lucida Console", Monospace;
+		text-shadow: 2px 2px 5px #e2b6cf;
+}
+	
+	/* Banner Image */
+.hakken{
+	background:url('../images/hakken.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.hakken{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:60px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+	
+
+.hak{
+	background: #e9d3d0;
+}
+	
+.hak{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.hak img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+
+.hak h3{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	text-shadow: 5px 5px 9px #160308;
+	text-align:center;
+	padding-top:-50px;
+}
+.hak p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	text-shadow: 5px 5px 9px #160308;
+	text-align:center;
+}
+	
+	
+	/* Banner Image */
+.villian{
+	background:url('../images/villian.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.villian{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:60px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+	
+.vi{
+	background: #e9d3d0;
+}
+	
+.vi{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.vi img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+
+.vi h3{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	text-shadow: 5px 5px 9px #160308;
+	text-align:center;
+	padding-top:-50px;
+}
+.vi p{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 25px;
+	text-shadow: 5px 5px 9px #160308;
+	text-align:center;
+}
+.waifu h1{
+	color:#000000;
+		text-decoration: none;
+		font-size: 100px;
+		background: #fff;
+		display: block;
+		text-align:center;
+		padding: 10px;
+		font-family: "Lucida Console", Monospace;
+		text-shadow: 2px 2px 5px #e2b6cf;
+}
+/* Banner Image */
+.blue{
+	background:url('../images/blue.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.blue{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.blue{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.akeno{
+	background: #8ecae6;
+}
+	
+.akeno{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.akeno img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.red{
+	background:url('../images/red.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.red{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.red h2{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.jabamiyumekojabami{
+	background: #e35053;
+}
+	
+.jabamiyumekojabami{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.jabamiyumekojabami img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.brown{
+	background:url('../images/brown.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.brown{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.brown h2{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.hange{
+	background: #e6b8a2;
+}
+	
+.hange{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.hange img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+.husbando h1{
+	color:#000000;
+		text-decoration: none;
+		font-size: 100px;
+		background: #fff;
+		display: block;
+		text-align:center;
+		padding: 10px;
+		font-family: "Lucida Console", Monospace;
+		text-shadow: 2px 2px 5px #e2b6cf;
+}
+/* Banner Image */
+.purple{
+	background:url('../images/purple.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.purple{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.purple h2{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.sin{
+	background: #8ecae6;
+}
+	
+.sin{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.sin img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.yellow{
+	background:url('../images/yellow.png');
+	width: 99%;
+	height:150px;
+	
+}
+.yellow{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.yellow h2{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.ash{
+	background: #ddca7d;
+}
+	
+.ash{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.ash img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+/* Banner Image */
+.red1{
+	background:url('../images/red1.jpg');
+	width: 99%;
+	height:150px;
+	
+}
+.red1{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 40px;
+	margin-top: 30px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:30px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+.red1 h2{
+	line-height: 10px;
+	margin-bottom: 15px;
+	font-size: 20px;
+	text-shadow: 50px 50px 100px #7a1137;
+	padding: 15px;
+	padding-top:10px;
+	text-align: center;
+	letter-spacing: 15px;
+	padding-left: 10px;
+	font-family: "Lucida Console", "Courier New", monospace;
+	text-shadow: 50px 50px 100px #fff;
+}
+
+.karmaa{
+	background: #e6b8a2;
+}
+	
+.karmaa{
+	display: flex;
+	margin-top: 35px;
+	justify-content: space-between;
+}
+
+.karmaa img{
+	padding: 70px;
+	width: 300px;
+	height: 300px;
+	margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
